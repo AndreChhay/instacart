@@ -55,6 +55,8 @@ orders_products_df= orders_products_df[['user_id','order_id','department_id']]
 data = orders_products_df.to_csv("/Users/Ricou/Desktop/ANDRE/machine_learning/instacart/instacart-market-basket-analysis/merged-sample.csv",index= False)
 data = orders_products_df.values
 
+#voir le fichier test.py qui travaillent sur les n_clients déclarés
+
 
 
 
