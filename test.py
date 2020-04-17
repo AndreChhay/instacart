@@ -14,7 +14,7 @@ from keras.layers import *
 #Inputs:
 #   - data: Dataframe avec les colonnes: user_id, order_id, department_id)
 #Outputs:
-#   - L, list où:
+#   - Liste, list où:
 #L[i] : list of basket of client i
 #L[i][t] : liste de catégories de clients à l'instant t
 #L[i][t][k] : int
